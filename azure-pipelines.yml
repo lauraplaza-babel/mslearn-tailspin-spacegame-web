@@ -1,10 +1,7 @@
 trigger:
   - '*'
 
-pool:
-    name: 'Default'
-    demands: 
-            -npm
+pool: mypool
            
   
 variables:
