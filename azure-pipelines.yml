@@ -2,7 +2,7 @@ trigger:
   - '*'
   
 pool:
-   Default
+   Default 
   
 variables:
     buildConfiguration: 'Release'
