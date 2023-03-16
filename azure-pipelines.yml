@@ -1,8 +1,9 @@
 trigger:
   - '*'
-  
+
 pool:
-   -npm
+    name: 'Default'
+    demands: -npm
   
 variables:
     buildConfiguration: 'Release'
