@@ -2,7 +2,7 @@ trigger:
   - '*'
   
 pool: 
-   Default
+  vmImage: 'ubuntu-22.04'
   
 variables:
     buildConfiguration: 'Release'
