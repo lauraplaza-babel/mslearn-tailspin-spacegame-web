@@ -1,7 +1,9 @@
 trigger:
   - '*'
 
-pool: mypool
+pool: 
+  vmImage: 'ubuntu-22.04'
+
            
   
 variables:
